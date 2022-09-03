@@ -11,7 +11,9 @@ This uses the [nvsmi](https://github.com/pmav99/nvsmi) package which handles the
 # Install
 pip install nvsmi
 
-* or 
+(safe on Stability Diffusion LDM environment)
+
+* or for more isolation
 
 conda create env -f environment.yaml
 
