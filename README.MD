@@ -25,7 +25,9 @@ which may be too much information to fit on screen with multiple GPUs and is a b
 # Install
 pip install nvsmi
 
-* or 
+(safe on Stability Diffusion LDM environment)
+
+* or for more isolation
 
 conda create env -f environment.yaml
 
