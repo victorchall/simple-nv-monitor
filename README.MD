@@ -1,6 +1,6 @@
 # Simple NV monitor
 
-This is a simple console app to monitor Nvidia GPUs.  It is built with the purpose of helping ML engineers that wish to help tune VRAM footprint as their app runs without having to string a series of print statements into their app or user the rather annoying alternative command line options.
+This is a simple console app to monitor Nvidia GPUs.  It is built with the purpose of helping ML engineers and hobbyists to help tune VRAM footprint as their app runs without having to string a series of print statements into their app or user the rather annoying alternative command line options.
 
 Run this in a separate console window while you run your app.  It will run continuosly until interrupted.
 
@@ -20,7 +20,7 @@ or in Powershell
     
     while (1) {cls; nvidia-smi; sleep 2}
 
-which may be too much information to fit on screen with multiple GPUs and is a bit noisy.
+which may be too much information to fit on screen with multiple GPUs and is a bit noisy.  Your call.
 
 # Install
 pip install nvsmi
