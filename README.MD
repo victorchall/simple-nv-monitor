@@ -4,7 +4,7 @@ This is a simple console app to monitor Nvidia GPUs.  It is built with the purpo
 
 Run this in a separate console window while you run your app.  It will run continuosly until interrupted.
 
-This uses the [nvsmi](https://github.com/pmav99/nvsmi) package which handles the integration work with the Nvidia SMI CLI.
+This is an extension on top of the [nvsmi](https://github.com/pmav99/nvsmi) package which handles the integration work with the Nvidia SMI CLI.
 
 ![](preview.png)
 
